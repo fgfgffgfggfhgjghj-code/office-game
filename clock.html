@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock - Multiple Time Zones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Office World Clock</h1>
+        <div class="clocks-grid">
+            <div class="clock-card">
+                <div class="timezone-name">New York (EST)</div>
+                <div class="digital-clock" id="nyc">00:00:00</div>
+                <div class="timezone-offset">UTC-5</div>
+            </div>
+            <div class="clock-card">
+                <div class="timezone-name">London (GMT)</div>
+                <div class="digital-clock" id="london">00:00:00</div>
+                <div class="timezone-offset">UTC+0</div>
+            </div>
+            <div class="clock-card">
+                <div class="timezone-name">Paris (CET)</div>
+                <div class="digital-clock" id="paris">00:00:00</div>
+                <div class="timezone-offset">UTC+1</div>
+            </div>
+            <div class="clock-card">
+                <div class="timezone-name">Tokyo (JST)</div>
+                <div class="digital-clock" id="tokyo">00:00:00</div>
+                <div class="timezone-offset">UTC+9</div>
+            </div>
+            <div class="clock-card">
+                <div class="timezone-name">Sydney (AEDT)</div>
+                <div class="digital-clock" id="sydney">00:00:00</div>
+                <div class="timezone-offset">UTC+11</div>
+            </div>
+            <div class="clock-card">
+                <div class="timezone-name">Dubai (GST)</div>
+                <div class="digital-clock" id="dubai">00:00:00</div>
+                <div class="timezone-offset">UTC+4</div>
+            </div>
+            <div class="clock-card">
+                <div class="timezone-name">Los Angeles (PST)</div>
+                <div class="digital-clock" id="la">00:00:00</div>
+                <div class="timezone-offset">UTC-8</div>
+            </div>
+            <div class="clock-card">
+                <div class="timezone-name">Singapore (SGT)</div>
+                <div class="digital-clock" id="singapore">00:00:00</div>
+                <div class="timezone-offset">UTC+8</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
